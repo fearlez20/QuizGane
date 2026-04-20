@@ -1,0 +1,57 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: whitesmoke;
+}
+
+.container {
+  max-width: 500px;
+  margin: 50px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 13px;
+  box-shadow: 4px 4px 16px rgba(0,0,0,0.2);
+}
+
+button {
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#start-btn {
+  background-color: #3498db;
+  color: white;
+}
+
+#start-btn:hover {
+  background-color: #2980b9;
+}
+
+.option-btn {
+  background-color: blueviolet;
+  color: white;
+  display: block;
+  width: 80%;
+  border-radius: 28px;
+  margin: 15px auto;
+}
+
+.option-btn:hover {
+  background-color: lightblue;
+}
+
+.option-btn.option-btn:correct {
+  background-color: green;
+}
+
+#next-btn {
+  background-color: green;
+  color: white;
+}
+
+#next-btn:hover {
+  background-color: #d35400;
+}
